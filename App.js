@@ -2,12 +2,13 @@ import React from 'react';
 import { View, Text, useColorScheme, StyleSheet } from 'react-native';
 import { Provider } from 'react-redux'
 import { store } from './src/application/store'
+import HomeScreen from 'views/HomeScreen';
 
 const App = () => {
   return (
     <Provider store={store}>
-      <View style={styles.container}>
-        <Text>Let's build UBER!</Text>
+      <View>
+        <HomeScreen />
       </View>
     </Provider>
   );
