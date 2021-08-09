@@ -13,7 +13,8 @@ module.exports = {
           middleware: './src/application/middleware',
           reducers: './src/application/reducers',
           selectors: './src/application/selectors',
-          views: './src/presentation'
+          views: './src/presentation/views',
+          components: './src/presentation/components',
         }
       }
     ]
