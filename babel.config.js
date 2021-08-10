@@ -13,9 +13,17 @@ module.exports = {
           middleware: './src/application/middleware',
           reducers: './src/application/reducers',
           selectors: './src/application/selectors',
-          views: './src/presentation/views',
           components: './src/presentation/components',
+          navigation: './src/presentation/navigation',
+          views: './src/presentation/views',
         }
+      }
+    ],
+    [
+      'module:react-native-dotenv',
+      {
+        "moduleName": "@env",
+        "path": ".env",
       }
     ]
   ]
