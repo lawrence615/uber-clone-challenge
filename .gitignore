@@ -69,4 +69,13 @@ buck-out/
 # Local History for Visual Studio Code
 .history/
 
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# environment variables
 .env
+.env.development
+.env.production
