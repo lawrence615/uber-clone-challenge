@@ -22,10 +22,14 @@ const Map = () => {
     mapRef.current.fitToSuppliedMarkers(['origin', 'destination'], {
       edgePadding: {
         // right: (width / 20), bottom: ((height / 2) / 20), left: (width / 20), top: ((height / 2) / 20),
-        right: 65, bottom: 65, left: 65, top: -65,
+        top: 50, right: 50, bottom: 50, left: 50,
       }
     })
   }, [origin, destination])
+
+  useEffect(() => {
+
+  }, [origin, destination, GOOGLE_MAPS_API_KEY])
 
 
   return (
