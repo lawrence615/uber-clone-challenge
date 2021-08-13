@@ -4,9 +4,12 @@ import tw from 'tailwind-react-native-classnames'
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { useDispatch } from 'react-redux';
 
-import NavOptions from 'components/NavOptions'
 import { GOOGLE_MAPS_API_KEY } from '@env'
 import { setOrigin, setDestination } from 'reducers/navSlice'
+
+import NavOptions from 'components/NavOptions'
+import NavFavourites from 'components/NavFavourites';
+
 
 
 const HomeScreen = () => {
@@ -55,6 +58,7 @@ const HomeScreen = () => {
           debounce={400} />
 
         <NavOptions />
+        <NavFavourites />
       </View>
     </SafeAreaView>
   )
