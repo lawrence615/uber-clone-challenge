@@ -12,6 +12,6 @@ This is thanks to the good work of **Sonny Sangha** and the entire video tutoria
 ## TODOS
 - [x] Setting up with React Native Cli
 - [x] Run on Android
-- [] Run on iOS
+- [ ] Run on iOS
 
 
