@@ -15,11 +15,12 @@ This is thanks to the good work of **Sonny Sangha** and the entire video tutoria
 - [ ] Run on iOS
 
 ## Screenshots
-<img align="center" width="110" height="200" src="./screenshots/image-1.jpeg">
 
-<img align="center" width="110" height="200" src="./screenshots/image-2.jpeg">
-
-<img align="center" width="110" height="200" src="./screenshots/image-3.jpeg">
+<div>
+<img align="left" width="110" height="200" src="./screenshots/image-1.jpeg">
+<img align="left" width="110" height="200" src="./screenshots/image-2.jpeg">
+<img align="left" width="110" height="200" src="./screenshots/image-3.jpeg">
+</div>
 
 
 
