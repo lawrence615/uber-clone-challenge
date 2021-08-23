@@ -1,7 +1,7 @@
 ## Uber Clone Challenge
 This is a React Native app built using TailwindCSS and a number of Google Maps API to simulate how an Uber app works.
 
-The design has been done using TailwindCSS, which is very friendly, and Google Maps API:
+The design has been done using TailwindCSS, which is very friendly, and Google Maps API for the mappiing, estimation of distances e.t.c:
 - Directions API - directions from A - B
 - Distance Matrix API - mileage calculations
 - Places API
@@ -11,7 +11,15 @@ This is thanks to the good work of **Sonny Sangha** and the entire video tutoria
 
 ## TODOS
 - [x] Setting up with React Native Cli
-- [x] Run on Android
+- [x] Run on Android device
 - [ ] Run on iOS
+
+## Screenshots
+<img align="left" width="100" height="200" src="./screenshots/image-1.jpeg">
+
+<img align="left" width="100" height="200" src="./screenshots/image-2.jpeg">
+
+<img align="left" width="100" height="200" src="./screenshots/image-3.jpeg">
+
 
 
